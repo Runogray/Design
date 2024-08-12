@@ -1,0 +1,430 @@
+@media only screen and (min-width: 920px) {
+    body {
+        font-family: 'Almarai', 'Gayathri';
+        background-color: rgb(7, 7, 7);
+        margin: 5em;
+        height: 100em;
+        color: white;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        padding: 0% 5% 0% 5%;
+        background-size: contain;
+        background-position-x: 20%;
+        background-position-y: 20%;
+        width: 90%;
+        height: 12vh;
+    }
+    nav {
+        transform: translateX(0);
+        position: unset;
+        display: block;
+        width: auto;
+        height: auto;
+        background: none;
+        .close {
+            display: none;
+        }
+    }
+    ul {
+        display: flex;
+        list-style: none; 
+        gap: 3em;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #212121;
+        border-radius: 0.1em;
+        border-style: solid;
+        border-color: #525252;
+        border-width: 0.1em;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(87, 87, 87, 0.2);
+        z-index: 1;
+        list-style-type: none; /* Remove bullets */
+        padding: 0;
+        margin: 0;
+    }
+    
+    /* Style the links inside the dropdown */
+    .dropdown-content li a {
+        color: rgb(215, 215, 215);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content li a:hover {
+        background-color: #535353;
+    }
+    
+    /* Show the dropdown content on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    a{
+        font-size: medium;
+        font-weight: 200;
+        text-decoration: none;
+        color: white;
+    }
+    .primary-cta {
+        background-color: #000000;
+        background-blend-mode: color-burn;
+        font-size: 1rem;
+        font-weight: normal;
+        color: white;
+        text-decoration: none;
+        border-radius: 0.3em;
+        border-color: white;
+        border-width: 0.1em;
+        border-style: solid;
+        padding: 0.6em 1.6em 0.6em 1.6em;
+        font-family: 'Almarai';
+        margin: 2em 1.2em;
+        width: 5.5em;
+    }
+    .menu{
+        display: none;
+    }
+    .h-hero-section{
+        background-color: rgb(26, 26, 26);
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0% 5% 0% 5%;
+        background-size: contain;
+        background-position-x: 20%;
+        background-position-y: 20%;
+        width: 90%;
+        height: 110vh;
+        background-position-x: 20%;
+        background-position-y: 20%;
+        display: flex;
+        margin-top: 4.8em;
+        color: white;
+        .h-left-content{
+            margin-top: 3em;
+            width: 50%;
+            .text{
+               font-size: 0.8em;
+               font-size: small;
+               font-weight: 100;
+            }
+            .intro{
+                margin-top: 8em;
+                .name{
+                   font-size: 8em;
+                   margin-right: 2em;
+                   line-height: 0.9em;
+                   margin-bottom: 0;
+                }
+                .about{
+                    margin-top: 0;
+                    font-size: 1em;
+                    font-weight: 500;
+                    line-height: 1.5em;
+                    margin-right: 15em;
+                }
+            }  
+        }
+        .h-right-content{
+            margin-top: 2.6em;
+            width: 50%;
+            margin-left: 4em;
+            
+        }
+    }
+    .services-offered{
+        background-color: rgb(3, 3, 3);
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0% 5% 0% 5%;
+        background-size: contain;
+        background-position-x: 20%;
+        background-position-y: 20%;
+        width: 90%;
+        height: 110vh;
+        background-position-x: 20%;
+        background-position-y: 20%;
+        margin-top: 45em;
+        color: white;
+        .clients{
+            display: flex;
+            gap: 6em;
+            margin-top: 2em;
+        }
+        .services{
+            margin-top: 6em;
+            text-align: center;
+            font-size: 1.6em;
+            font-weight: 600;
+            font-family: 'Gayathri';
+        }
+        .services-cards{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3em;
+        }
+    }
+    .project{
+        margin-top: 94em;
+        .h-h1-text{
+            text-align: center;
+            font-size: 1.6em;
+            font-weight: 600;
+            font-family: 'Gayathri';
+        }
+        .project-cards{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3em;
+        }
+        .project-cards2{
+            display: flex;
+            margin-top: 1.5em;
+            gap: 1.7em;
+    
+        }
+    }
+    .meet-me{
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 9em;
+            .h-left-content{
+                margin-top: 6em;
+                width: 50%;
+                font-family: 'Gayathri';
+                .h-h1-text{
+                    font-size: 2.5em;
+                    font-family: 'Gayathri';
+                    line-height: 0;
+                    margin-bottom: 0.5em;
+                }
+                .wrapme{
+                    display: flex;
+                    align-items: center;
+                    top: 0;
+                    .short-txt{
+                        font-size: 1em;
+                        font-weight: 100;
+                        color: rgb(236, 236, 236);
+                    }
+                }
+                .my-intro{
+                    font-size: 1em;
+                    line-height: 1.5em;
+                    font-weight: 100;
+                    .wrap{
+                        display: flex;
+                        align-items: center;
+                        gap: 0.6em;
+                    }
+
+                }
+            }
+            .h-right-content{
+                border-radius: 1em;
+                border-color: white;
+                border-width: 0.1em;
+                border-style: solid;
+                padding: 0.8em 0.8em 1.8em 0.8em;
+                .mail-address{
+                    margin-top: 2em;
+                    text-align: center;
+                    .mail{
+                        font-size: 1.2em;
+                        font-weight: 600;
+                        margin-bottom: 0em;
+                    }
+                    .location{
+                        font-size: 1em;
+                        color: rgb(235, 235, 235);
+                        margin-top: 0.4em;
+                    }
+                }
+                .social{
+                    text-align: center;
+                    margin-top: 2.5em;
+                }
+                .button{
+                    margin-top: 2em;
+                    .primary-cta {
+                        background-color: #7F3BF3;
+                        background-blend-mode: color-burn;
+                        font-size: 1rem;
+                        font-weight: 300;
+                        font-weight: normal;
+                        color: white;
+                        text-decoration: none;
+                        border-radius: 0.3em;
+                        border-color: #4B1E97;
+                        border-width: 0.1em;
+                        border-style: solid;
+                        padding: 0.6em 6.3em 0.6em 6.3em;
+                        font-family: 'Almarai';
+                        margin: 2em 1.2em;
+                        width: 5.5em;
+                    }
+
+                }
+            
+            }
+            
+        }
+    }
+    .Advantages{
+        margin-top: 12em;
+        .advantage-wrapper{
+            .my-advantages{
+                font-size: 2.5em;
+                line-height: 0em;
+                margin-bottom: 0.8em;
+            }
+            .detail{
+                font-size: 1em;
+                color: #eaeaea;
+                font-weight: 100;
+                margin-top: 0;
+            }
+        }
+        .design-tool{
+            margin-top: 3em;
+            .icontxt{
+                font-size: 1em;
+                font-weight: 600;
+                line-height: 0.2em;
+            }
+            .icons{
+                display: flex;
+                gap: 1.4em;
+            }
+        }
+        .collaboration-tools{
+            margin-top: 3em;
+            .icontxt{
+                font-size: 1em;
+                font-weight: 600;
+                line-height: 0.2em;
+            }
+            .icons{
+                display: flex;
+                gap: 1.4em;
+            }
+        }
+        .developer-tools{
+            margin-top: 3em;
+            .icontxt{
+                font-size: 1em;
+                font-weight: 600;
+                line-height: 0.2em;
+            }
+            .icons{
+                display: flex;
+                gap: 1.4em;
+            }
+        }
+
+    }
+    // .Testimonial{
+    //     margin-top: 12em;
+    //     text-align: center;
+    //     .h-h1-text{
+    //         font-size: 1.6em;
+    //         font-weight: 600;
+    //         font-family: 'Gayathri';
+    //         line-height: 0.2em;
+    //     }
+    //     .detail{
+    //         font-size: 1em;
+    //         color: #eaeaea;
+    //         font-weight: 100;
+    //     }
+    //     .testimonial{
+    //         margin-top: 4em;
+    //     }
+    // }
+    .footer{
+        background-color: rgb(37, 37, 37);
+        position: absolute;
+        top: 255em;
+        left: 0;
+        right: 0;
+        width: 90%;
+        z-index: -1;
+        padding: 4% 5% 0% 5%;
+        background-size: cover;
+        background-position-x: 20%;
+        background-position-y: 40%;
+        height: 50vh;
+        .body{
+            display: flex;
+            justify-content: space-between;
+            .h-h1-text{
+                font-size: 2.2em;
+                line-height: 0em;
+                margin-bottom: 1.2em;
+            }
+            .mail-no{
+                margin-top: 4em;
+                font-size: 1em;
+                font-weight: 100;
+            }
+            .F-txt{
+                font-size: 1em;
+                font-weight: 100;
+                color: rgb(214, 214, 214);
+            }
+            .T-wrapper{
+                font-size: 1em;
+                font-weight: 400;
+                margin-top: 1.5em;
+                line-height: 1.2em;
+            }
+            .button{
+                margin-top: 1em;
+                .F-button {
+                   background-color: #7F3BF3;
+                   background-blend-mode: color-burn;
+                   font-size: 1rem;
+                   font-weight: 300;
+                   font-weight: normal;
+                   color: white;
+                   text-decoration: none;
+                   border-radius: 0.6em;
+                   border-color: #4B1E97;
+                   border-width: 0.1em;
+                   border-style: solid;
+                   padding: 0.6em 1.4em 0.6em 1.4em;
+                   font-family: 'Almarai';
+                   width: 5.5em;
+                }  
+            }  
+        }
+        .foot{
+            margin-top: 5em;
+            text-align: center;
+            .copyright{
+                font-size: 0.8em;
+                color: rgb(172, 172, 172);
+            }
+        }
+    }
+}

@@ -1,0 +1,550 @@
+@media only screen and (min-width: 920px) {
+  body {
+    font-family: "Almarai", "Gayathri";
+    background-color: rgb(27, 27, 27);
+    margin: 5em;
+    height: 100em;
+    color: white;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 0% 5% 0% 5%;
+    background-size: contain;
+    background-position-x: 20%;
+    background-position-y: 20%;
+    width: 90%;
+    height: 12vh;
+  }
+  nav {
+    transform: translateX(0);
+    position: unset;
+    display: block;
+    width: auto;
+    height: auto;
+    background: none;
+  }
+  nav .close {
+    display: none;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 3em;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #212121;
+    border-radius: 0.1em;
+    border-style: solid;
+    border-color: #525252;
+    border-width: 0.1em;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(87, 87, 87, 0.2);
+    z-index: 1;
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+  }
+  /* Style the links inside the dropdown */
+  .dropdown-content li a {
+    color: rgb(215, 215, 215);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content li a:hover {
+    background-color: #535353;
+  }
+  /* Show the dropdown content on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  a {
+    font-size: medium;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+  }
+  .primary-cta {
+    background-color: #000000;
+    background-blend-mode: color-burn;
+    font-size: 1rem;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.3em;
+    border-color: white;
+    border-width: 0.1em;
+    border-style: solid;
+    padding: 0.6em 1.6em 0.6em 1.6em;
+    font-family: "Almarai";
+    margin: 2em 1.2em;
+    width: 5.5em;
+  }
+  .menu {
+    display: none;
+  }
+  .B-Hero {
+    background-color: rgb(253, 253, 253);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0% 5% 0% 5%;
+    background-size: contain;
+    background-position-x: 20%;
+    background-position-y: 20%;
+    width: 90%;
+    height: 110vh;
+    background-position-x: 20%;
+    background-position-y: 20%;
+    margin-top: 4.8em;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+  }
+  .B-Hero .H-wrappertext {
+    margin-top: 5em;
+  }
+  .B-Hero .H-wrappertext .casestudy {
+    font-size: 1em;
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 0.4em;
+  }
+  .B-Hero .H-wrappertext .magenta {
+    font-size: 2.8em;
+    line-height: 0.9em;
+    margin-top: 0;
+  }
+  .B-Hero .H-wrappertext .H1body {
+    margin-top: 0;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 0.4em;
+  }
+  .blacktext {
+    background-color: rgb(27, 27, 27);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0% 5% 0% 5%;
+    background-size: contain;
+    background-position-x: 20%;
+    background-position-y: 20%;
+    width: 90%;
+    height: 30vh;
+    background-position-x: 20%;
+    background-position-y: 20%;
+    margin-top: 45em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  .blacktext .txt1 {
+    margin-top: 2em;
+    font-size: 0.8em;
+    color: rgb(173, 173, 173);
+  }
+  .blacktext .txt2 {
+    font-size: 0.8em;
+    color: rgb(255, 255, 255);
+  }
+  .bodytxt14 {
+    margin-right: 3em;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.4em;
+    color: rgb(237, 237, 237);
+  }
+  .maintxt {
+    font-size: 1.4em;
+    font-weight: 600;
+    line-height: 0;
+  }
+  .bodytxt {
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.4em;
+    color: rgb(237, 237, 237);
+  }
+  .magenta-casher {
+    font-family: "Gayathri";
+    margin-top: 60em;
+    display: flex;
+  }
+  .magenta-casher .left {
+    width: 50%;
+  }
+  .magenta-casher .left .info {
+    display: flex;
+    gap: 5em;
+  }
+  .magenta-casher .left .info .txt1 {
+    margin-top: 2em;
+    font-size: 0.8em;
+    color: rgb(173, 173, 173);
+  }
+  .magenta-casher .left .info .txt2 {
+    font-size: 0.8em;
+    color: rgb(255, 255, 255);
+  }
+  .magenta-casher .casher {
+    margin-top: 4em;
+  }
+  .magenta-casher .maintxt {
+    font-size: 1.4em;
+    font-weight: 600;
+    line-height: 0;
+  }
+  .magenta-casher .bodytxt {
+    margin-right: 3em;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.4em;
+    color: rgb(237, 237, 237);
+  }
+  .magenta-casher .expectation {
+    margin-top: 3em;
+  }
+  .magenta-casher .feature {
+    margin-top: 2em;
+  }
+  .magenta-casher .feature .bodytxt {
+    font-size: 1em;
+    color: rgb(167, 167, 167);
+    line-height: 0;
+  }
+  .magenta-casher .list {
+    list-style-position: inside;
+    display: flow-root;
+    list-style: circle;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.8em;
+    margin-top: 0;
+    color: rgb(238, 238, 238);
+  }
+  .magenta-casher .right {
+    margin-top: 9em;
+  }
+  .admin {
+    font-family: "Gayathri";
+    display: flex;
+    margin-top: 6em;
+  }
+  .admin .left {
+    width: 50%;
+    margin-top: 4em;
+  }
+  .admin .casher {
+    margin-top: 4em;
+  }
+  .admin .maintxt {
+    font-size: 1.4em;
+    font-weight: 600;
+    line-height: 0;
+  }
+  .admin .bodytxt {
+    margin-right: 3em;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.4em;
+    color: rgb(237, 237, 237);
+  }
+  .admin .expectation {
+    margin-top: 3em;
+  }
+  .admin .feature {
+    margin-top: 2em;
+  }
+  .admin .feature .bodytxt {
+    font-size: 1em;
+    color: rgb(167, 167, 167);
+    line-height: 0;
+  }
+  .admin .list {
+    list-style-position: inside;
+    display: flow-root;
+    list-style: circle;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.8em;
+    margin-top: 0;
+    color: rgb(238, 238, 238);
+  }
+  .admin .right {
+    margin-left: 5em;
+  }
+  .magenta-user {
+    font-family: "Gayathri";
+    margin-top: 0;
+    display: flex;
+  }
+  .magenta-user .left {
+    width: 50%;
+    margin-top: 5em;
+  }
+  .magenta-user .casher {
+    margin-top: 8em;
+  }
+  .magenta-user .maintxt {
+    font-size: 1.4em;
+    font-weight: 600;
+    line-height: 0;
+  }
+  .magenta-user .bodytxt {
+    margin-right: 3em;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.4em;
+    color: rgb(237, 237, 237);
+  }
+  .magenta-user .expectation {
+    margin-top: 3em;
+  }
+  .magenta-user .feature {
+    margin-top: 2em;
+  }
+  .magenta-user .feature .bodytxt {
+    font-size: 1em;
+    color: rgb(167, 167, 167);
+    line-height: 0;
+  }
+  .magenta-user .list {
+    list-style-position: inside;
+    display: flow-root;
+    list-style: circle;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.8em;
+    margin-top: 0;
+    color: rgb(238, 238, 238);
+  }
+  .magenta-user .right {
+    margin-top: 0;
+    position: absolute;
+    margin-left: 35em;
+  }
+  .Problem-Statement {
+    text-align: center;
+    border-radius: 1em;
+    border-color: white;
+    border-width: 0.1em;
+    border-style: solid;
+    margin: 8em 14em 8em 14em;
+    padding: 0.4em 4em 0.4em 4em;
+  }
+  .Problem-Statement .maintxt {
+    font-size: 1.4em;
+  }
+  .Problem-Statement .bodytxt {
+    font-size: 1em;
+    color: rgb(232, 232, 232);
+    font-weight: lighter;
+  }
+  .design-process {
+    margin-top: 4em;
+  }
+  .design-process .thead {
+    font-size: 0.8em;
+    line-height: 0.8em;
+  }
+  .design-process .header {
+    font-size: 2.6em;
+    margin-top: 0;
+  }
+  .design-process .process-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  .design-process .maintext {
+    margin-top: 2em;
+    font-size: 1.2em;
+    font-weight: normal;
+    line-height: 0em;
+  }
+  .design-process .bodytxt14 {
+    font-size: 0.9em;
+    font-weight: lighter;
+    color: rgb(225, 225, 225);
+  }
+  .strategy-used {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8em;
+  }
+  .strategy-used .left {
+    width: 50%;
+    margin-right: 3em;
+  }
+  .strategy-used .list {
+    list-style-position: inside;
+    display: flow-root;
+    list-style: circle;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.8em;
+    margin-top: 0;
+    color: rgb(238, 238, 238);
+  }
+  .Unique-features {
+    margin-top: 10em;
+    text-align: center;
+  }
+  .Unique-features .header {
+    font-size: 2.6em;
+    margin-top: 0;
+    line-height: 0.2em;
+  }
+  .Unique-features .bodytxt20 {
+    font-size: 1em;
+    font-weight: lighter;
+    margin: 1em 14em 1em 14em;
+    line-height: 1.5em;
+  }
+  .research {
+    display: flex;
+    margin-top: 6em;
+  }
+  .research .Left {
+    margin-right: 3em;
+  }
+  .research .list {
+    list-style-position: inside;
+    display: flow-root;
+    list-style: circle;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.8em;
+    margin-top: 0;
+    color: rgb(238, 238, 238);
+  }
+  .competitive-analysis {
+    text-align: center;
+    margin-top: 8em;
+  }
+  .competitive-analysis .text {
+    margin: 1em 12em 1em 12em;
+  }
+  .mobile-screens {
+    text-align: center;
+    margin-top: 8em;
+  }
+  .mobile-screens .payment {
+    margin-top: 3em;
+  }
+  .mobile-screens .screens {
+    margin-top: 0;
+  }
+  .style-guide {
+    background-color: 121212;
+    position: absolute;
+    top: 552em;
+    left: 0;
+    padding: 0% 5% 0% 5%;
+    background-size: contain;
+    background-position-x: 20%;
+    background-position-y: 20%;
+    width: 90%;
+    height: 306vh;
+    background-position-x: 20%;
+    background-position-y: 20%;
+    margin-top: 4.8em;
+    color: rgb(255, 255, 255);
+  }
+  .style-guide .header {
+    font-size: 2.6em;
+    margin-top: 1.2em;
+    line-height: 2em;
+  }
+  .style-guide .typography {
+    margin-top: 6em;
+  }
+  .style-guide .Icon {
+    margin-top: 6em;
+  }
+  .style-guide .iconwrap {
+    display: flex;
+    gap: 2em;
+  }
+  .footer {
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    top: 676em;
+    left: 0;
+    right: 0;
+    width: 90%;
+    z-index: -1;
+    padding: 4% 5% 0% 5%;
+    background-size: cover;
+    background-position-x: 20%;
+    background-position-y: 40%;
+    height: 50vh;
+  }
+  .footer .body {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .body .h-h1-text {
+    font-size: 2.2em;
+    line-height: 0em;
+    margin-bottom: 1.2em;
+  }
+  .footer .body .mail-no {
+    margin-top: 4em;
+    font-size: 1em;
+    font-weight: 100;
+  }
+  .footer .body .F-txt {
+    font-size: 1em;
+    font-weight: 100;
+    color: rgb(214, 214, 214);
+  }
+  .footer .body .T-wrapper {
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 1.5em;
+    line-height: 1.2em;
+  }
+  .footer .body .button {
+    margin-top: 1em;
+  }
+  .footer .body .button .F-button {
+    background-color: #7F3BF3;
+    background-blend-mode: color-burn;
+    font-size: 1rem;
+    font-weight: 300;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.6em;
+    border-color: #4B1E97;
+    border-width: 0.1em;
+    border-style: solid;
+    padding: 0.6em 1.4em 0.6em 1.4em;
+    font-family: "Almarai";
+    width: 5.5em;
+  }
+  .footer .foot {
+    margin-top: 5em;
+    text-align: center;
+  }
+  .footer .foot .copyright {
+    font-size: 0.8em;
+    color: rgb(172, 172, 172);
+  }
+}/*# sourceMappingURL=main.css.map */

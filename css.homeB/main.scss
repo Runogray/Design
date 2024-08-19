@@ -241,11 +241,14 @@
                 }
             }
             .h-right-content{
+                display: grid;
+                align-content: center;
                 border-radius: 1em;
                 border-color: white;
                 border-width: 0.1em;
                 border-style: solid;
                 padding: 0.8em 0.8em 1.8em 0.8em;
+                
                 .mail-address{
                     margin-top: 2em;
                     text-align: center;

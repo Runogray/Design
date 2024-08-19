@@ -234,6 +234,8 @@
     gap: 0.6em;
   }
   .meet-me .wrapper .h-right-content {
+    display: grid;
+    align-content: center;
     border-radius: 1em;
     border-color: white;
     border-width: 0.1em;
